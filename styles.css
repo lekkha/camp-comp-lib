@@ -10,6 +10,7 @@
 body{
     font-family : 'Nunito', 
     sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -96,6 +97,7 @@ hr{
 .hero .hero-heading{
     padding-top: 1rem;
     color: var(--dark-gray);
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted{
@@ -112,4 +114,16 @@ hr{
 
 .ow{
     background-color: var(--off-white);
+}
+
+.footer{
+    background-color: #65a30d;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
 }
